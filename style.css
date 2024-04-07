@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li{
+    font-size: 40px;
+    display: inline-block;
+    color: #7575e4;
+    padding: 30px; /* Ajuste o preenchimento para um valor menor */
+    border: 1px solid #989f9f;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 0px;
+}
+
+li:hover{
+
+    background-color: #e5e4e4;
+}
+
+li + li{
+
+    margin-left: -5px;
+}
